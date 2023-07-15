@@ -108,11 +108,6 @@
     picocolors "^1.0.0"
     tslib "^2.6.0"
 
-"@types/discord-rpc@^4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@types/discord-rpc/-/discord-rpc-4.0.5.tgz#5e5562d394df04d0d1c234f7c664a9ee3c94344f"
-  integrity sha512-4Nd8eo/razej1fglurBJGtkv/gAEeSdGySSmWv/dn0Xh0xvNcmtdnXmzMx1IVv52jXHloSegNGFDLjLsax0JFw==
-
 "@types/json-schema@^7.0.11":
   version "7.0.12"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.12.tgz#d70faba7039d5fca54c83c7dbab41051d2b6f6cb"
