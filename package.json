@@ -1,0 +1,30 @@
+{
+  "name": "own-rpc",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "node ./build/index.js",
+    "watch": "tsc-watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.0.18",
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/discord-rpc": "^4.0.5",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  }
+}
